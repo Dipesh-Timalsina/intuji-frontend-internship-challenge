@@ -1,0 +1,54 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Manrope:800,400,500,700,600|Roboto+Slab:900");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Manrope", Helvetica;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/59dfb1260b1fed000d431d8f/Radomir Tinkov - Gilroy-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold-☞";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/609ba63c8be9f9a21fc21698/fonts/gilroy-semibold.ttf")
+    format("truetype");
+}
+.linkbutton{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+} 
+.navbar-brand{
+    display: flex;
+    flex-grow: 1;
+}
+/* 
+ bootstrap max width overwrite */
+.container {
+    max-width: 1200px;
+}
+.green-circle{
+    background:#22D497;
+    height:60px ;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
