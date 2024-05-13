@@ -1,0 +1,159 @@
+@media screen and (max-width: 1100px) {
+  .hand {
+    background-position: bottom center;
+    background-size: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bg2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  nav > .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .disocover-content {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .navbar-nav {
+    align-items: flex-start;
+  }
+  nav .nav-item {
+    align-items: flex-start;
+    display: flex;
+  }
+  .topBanner {
+    padding-top: 16px;
+  }
+  .linkbutton {
+    background: #fff;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    z-index: 10000;
+    padding: 30px;
+    flex-direction: column;
+    height: calc(100vh - 75px);
+  }
+  .hand {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  h2,
+  .banner h2,
+  .sectionHeading,
+  .title {
+    font-size: 48px;
+    line-height: 130%;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  .banner p {
+    padding: 0;
+  }
+  .bg1 {
+    width: 30px;
+  }
+  .bg3 {
+    width: 50px;
+  }
+  .texts {
+    padding: 50px 1.5rem;
+  }
+  .brands {
+    background-color: #f5f6f8;
+    padding: 30px 0;
+  }
+
+  .sectionParagraphs {
+    margin-bottom: 40px;
+  }
+  .explaination {
+    width: 100%;
+  }
+  .portfolioCards .row {
+    gap: 15px;
+  }
+  .automated,
+  .sectionPadding {
+    padding: 50px 0;
+  }
+  .item2,
+  .item3,
+  .item4 {
+    position: static;
+    width: 100%;
+  }
+  .userCardWrapper {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  .co {
+    width: 60px;
+  }
+  .save {
+    margin-top: 0;
+  }
+  .handWrapper {
+    top: 0;
+  }
+  .testim .explaination {
+    width: calc(100% - 30px);
+  }
+  .explaination {
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 100%;
+  }
+  .explaination img {
+    order: 1;
+  }
+  .explain {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .blogs .card {
+    flex-direction: column;
+  }
+  .tbg {
+    right: 20px;
+    top: 80px;
+    width: 150px;
+  }
+  .inner-col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .count {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+  .fbg2 {
+    display: none;
+  }
+  .fbg1 {
+    width: 50px;
+    top: 30px;
+  }
+  .features .row {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .features .col-md-4.d-flex {
+    padding-right: 0;
+  }
+  div.rps {
+    display: block !important;
+    width: 100%;
+  }
+}
