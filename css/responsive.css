@@ -51,7 +51,8 @@
   h2,
   .banner h2,
   .sectionHeading,
-  .title {
+  .title,
+  .disocover-content h2 {
     font-size: 48px;
     line-height: 130%;
     margin-bottom: 30px;
@@ -97,6 +98,9 @@
     width: 100%;
     padding: 30px;
     margin-bottom: 50px;
+  }
+  .userCard {
+    max-width: 100%;
   }
   .co {
     width: 60px;
@@ -155,5 +159,8 @@
   div.rps {
     display: block !important;
     width: 100%;
+  }
+  .footer .row {
+    gap: 30px;
   }
 }
